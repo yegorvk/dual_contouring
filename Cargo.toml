@@ -1,0 +1,11 @@
+[package]
+name = "dual_contouring"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glam = { version = "0.29.2", features = ["bytemuck"] }
+auto_impl = "1.2.1"
+thiserror = "2.0.11"
+morton-encoding = "2.0.1"
+iter_seq = "0.1.1"
